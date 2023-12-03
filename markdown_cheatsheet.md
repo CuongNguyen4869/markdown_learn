@@ -11,7 +11,7 @@
 ##### Heading 5
 ###### Heading 6
 maximum heading level is 6
-Alternate syntax
+Alternate syntax for Heading level 1 and 2
 
 Heading level 1
 =
@@ -28,42 +28,45 @@ Heading level 2
 
 *italicized text*
 
-## Bold and Italic
+## 4. Bold and Italic
 This is really ***important***
 
-## 4. Blockquote
+## 5. Blockquote
 
 > This is a blockquote
 > This is the first line
 > This is the second line
 > This is the third line
 
-## 5. Ordered List
+## 6. Ordered List
 
 1. First item
 2. Second item
 3. Third item
    
-## 6. Unordered List
+## 7. Unordered List
 
 - First item
 - Second item
 - Third item
   
-## 7. Code
+## 8. Code
 
 `code`
 
-## 8. Horizontal Rule
+## 9. Horizontal Rule
 
 ---
 
-## 9. Link
+## 10. Link
 
 https://www.google.com/
 [Link to Google](https://www.google.com/)
 
-## 10. Image
+Disabling automatic URL Linking: 
+`https://www.google.com/`
+
+## 11. Image
 
 ![example_picture](examplePicture.jpg)
 
@@ -71,10 +74,17 @@ https://www.google.com/
 
 ## 1. Table
 
-|Category 1|Category 2|
-|-|-|
-|Item 1.1|Item 2.1|
-|Item 1.2|Item 2.2|
+| Category 1 | Category 2 |
+| - | - |
+| Item 1.1 | Item 2.1 |
+| Item 1.2 | Item 2.2 |
+
+### Alignment in table
+
+| Category 1 | Category 2 | Category 3|
+| :- | :-: | -: |
+| Item 1.1 | Item 2.1 | Item 3.1 |
+| Item 1.2 | Item 2.2 | Item 3.2 |
 
 ## 2. Fenced Code Block
 
@@ -86,10 +96,24 @@ https://www.google.com/
 }
 ```
 
+### Syntax highlighting
+
+```cpp
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+[list of language supported](https://docs.readme.com/rdmd/docs/code-blocks)
+
 ## 3. Footnote
 
-Here is a sentence with a footnote. [^1]
-[^1]: This is the footnote
+Here is a sentence with a footnote. [^2]
+[^2]: This is the footnote.
+Here is another sentence with a footnote. [^another]
+[^another]: This is also a footnote. Look at the number.
 
 ## 4. Heading ID
 
@@ -113,7 +137,12 @@ www
 - [x] Clean the dishes
 
 ## 8. Emoji
-:) :joy: :s :tent: :eggplant:
+
+There is 2 ways to add emoji to Markdown files: copy and paste the emoji into your Markdown-formatted text or type emoji shortcodes.
+
+Example of emoji shortcodes:
+:tent: :eggplant:
+[List of emoji for markdown](https://gist.github.com/rxaviers/7360908)
 
 ## 9. Highlight
 
