@@ -68,7 +68,7 @@ Disabling automatic URL Linking:
 
 ## 11. Image
 
-![example_picture](examplePicture.jpg)
+![example_picture](image/examplePicture.jpg)
 
 # Extended syntax
 
@@ -112,8 +112,9 @@ Disabling automatic URL Linking:
 
 Here is a sentence with a footnote. [^2]
 [^2]: This is the footnote.
-Here is another sentence with a footnote. [^another]
-[^another]: This is also a footnote. Look at the number.
+
+Here is another sentence with a footnote. [^yep]
+[^yep]: This is also a footnote. Look at the number.
 
 ## 4. Heading ID
 
